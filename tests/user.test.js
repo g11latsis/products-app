@@ -44,7 +44,7 @@ describe('Request POST /api/users', () => {
     const res = await request(app)
     .post('/api/users')
     .send({
-      username: "test",
+      username: "makis", 
       password: "123456",
       name:"Kostas",
       surname: "Kostakis",
