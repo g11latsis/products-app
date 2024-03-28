@@ -8,10 +8,11 @@
     "test": "jest",
     "dev": "nodemon --env-file=.env server.js"
   },
-  "jest" :{
-    "collectCoverage" : true,
+  "jest": {
+    "collectCoverage": true,
     "coveragePathIgnorePatterns": [
-      "/node_modules/", "/logs/"
+      "/node_modules/",
+      "/logs/"
     ]
   },
   "author": "",
@@ -26,7 +27,6 @@
     "mongoose-unique-validator": "^5.0.0",
     "swagger-ui-express": "^5.0.0",
     "winston": "^3.13.0",
-    "winston-daily-rotate": "^0.0.1",
     "winston-daily-rotate-file": "^5.0.0",
     "winston-mongodb": "^5.1.1"
   },
